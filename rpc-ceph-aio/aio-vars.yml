@@ -1,0 +1,13 @@
+tor_interface: eth0
+public_network: 104.130.6.116/32
+cluster_network: 104.130.6.116/32
+devices:
+  - /dev/xvdb
+  - /dev/xvdc
+  - /dev/xvdd
+osd_scenario: collocated
+dmcrypt: True
+
+ceph_conf_overrides:
+  global:
+    osd_pool_default_size: 1

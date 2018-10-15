@@ -1,0 +1,8 @@
+[mons]
+ceph01 ansible_connection="local"
+
+[mgrs]
+ceph01 ansible_connection="local"
+
+[osds]
+ceph01 ansible_connection="local" devices="['/dev/xvdb', '/dev/xvdc', '/dev/xvdd']"
