@@ -1,4 +1,4 @@
-tor_interface: eth0
+monitor_interface: eth0
 public_network: 104.130.6.116/32
 cluster_network: 104.130.6.116/32
 devices:
